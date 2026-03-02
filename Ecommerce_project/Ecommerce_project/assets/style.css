@@ -1,0 +1,75 @@
+/* FULL BACKGROUND FIX */
+html, body, .stApp {
+    background: linear-gradient(135deg, #0f172a, #111827);
+    color: #ffffff;
+}
+
+/* Remove white padding effect */
+.main > div {
+    padding-top: 2rem;
+}
+
+/* Fix default container background */
+.block-container {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background: transparent;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #0b1220;
+    border-right: 1px solid #1f2937;
+}
+
+/* Product Card */
+.product-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    margin-bottom: 20px;
+}
+
+/* Remove weird empty box under select */
+/* Remove unwanted grey block under selectbox */
+div[data-testid="stSelectbox"] > div {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* Button */
+div.stButton > button {
+    background: linear-gradient(90deg, #22c55e, #16a34a);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 0.6em 1.5em;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+div.stButton > button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #16a34a, #15803d);
+}
+
+/* Prediction Result Card */
+.result-card {
+    background: #1f2937;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Fix alert colors */
+.stAlert-success {
+    background-color: #064e3b !important;
+}
+.stAlert-warning {
+    background-color: #78350f !important;
+}
+.stAlert-error {
+    background-color: #7f1d1d !important;
+}
