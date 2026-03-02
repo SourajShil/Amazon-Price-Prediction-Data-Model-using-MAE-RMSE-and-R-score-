@@ -1,0 +1,2 @@
+# Amazon-Price-Prediction-Data-Model-using-MAE-RMSE-and-R-score-
+E-Commerce Price Prediction is a Machine Learning web app that predicts product prices using category, rating, review count, and discount percentage. Built with Python, Scikit-learn, and Streamlit, it uses a Random Forest model with log transformation and displays predictions, dataset insights, and performance metrics interactively.
